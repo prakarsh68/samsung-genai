@@ -14,7 +14,7 @@
   "p2_observation": "The response was more detailed and structured, providing a clear step-by-step guide.",
   "p3_winner": "claude",
   "p3_observation": "Claude's response was more comprehensive, covering various aspects of the topic and providing additional insights.",
-  "hallucination_found": false,
+  "hallucination_found": true,
   "hallucination_detail": "chatgpt | Mixes up multiple situations | Misses on the actual context of the question and provides a generic response that doesn't address the specific scenario.",
   "overall_winner": "claude",
   "biggest_surprise": " Claude's ability to provide a more structured and detailed response, which was unexpected given the context of the questions.",
