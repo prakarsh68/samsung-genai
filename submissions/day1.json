@@ -19,8 +19,8 @@
   "overall_winner": "claude",
   "biggest_surprise": " Claude's ability to provide a more structured and detailed response, which was unexpected given the context of the questions.",
   "stretch_done": false,
-  "stretch_prompt": "-",
-  "stretch_observation": "-",
+  "stretch_prompt": "--",
+  "stretch_observation": "--",
   "achievement": "silver",
   "submitted_at": "2026-07-13T15:42:00"
 }
