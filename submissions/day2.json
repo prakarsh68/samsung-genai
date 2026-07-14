@@ -1,0 +1,19 @@
+{
+  "day": 2,
+  "student_name": "Prakarsh Awasthi",
+  "github": "prakarsh68",
+  "lab1_scenario": "A",
+  "lab1_prompt": "You are a Samsung Care+ Customer Support Specialist handling warranty escalations. Draft a professional response to a customer's third Galaxy Watch battery complaint this month that acknowledges the issue, explains the next steps, and offers a resolution without promising a refund. Context: The customer has contacted support three times this month regarding poor Galaxy Watch battery performance. The device is still under warranty, and the customer is frustrated. The response should reassure the customer, apologize for the inconvenience, and guide them toward a warranty inspection or replacement process if eligible, while avoiding any commitment to a refund. Constraints: Maximum 200 words. Include an apology, empathy, acknowledgment of repeated contacts, and clear next steps. Mention the warranty coverage. Do not promise or imply a refund. Maintain a positive and solution-focused approach. Tone: Professional, empathetic, respectful, reassuring, and customer-centric. Output format: A complete customer support email with: Greeting, Body, Closing, Professional sign-off.",
+  "lab1_output_met_constraints": true,
+  "lab1_extra_scenarios_done": 2,
+  "lab2_problem": "Galaxy Buds distribution centre — shipment/hold/restock",
+  "lab2_naive_output_summary": "The AI subtracts the 850 shipped units from the initial 4,200, applies the 6% quality hold only to the remaining 3,350 units, and then adds the 1,150 newly restocked units since they are not on hold. This results in 4,299 units available for sale by the end of the day.",
+  "lab2_cot_prompt": "Samsung's SRM-area distribution centre begins the day with 4,200 Galaxy Buds in stock. During the morning, 850 units are shipped out (distributed equally among 3 retail partners). After the shipment, 6% of the remaining inventory is placed on a quality hold and cannot be sold. Later in the afternoon, the warehouse receives a restock of 1,150 new Galaxy Buds, and these newly arrived units are not subject to the quality hold. Work through this one step at a time: first calculate the inventory remaining after the shipment, then determine how many units are placed on hold, then add the afternoon restock. Show each calculation clearly, and finally state the total number of Galaxy Buds available for sale (not on hold) at the end of the day.",
+  "lab2_cot_output_summary": "The AI first subtracts the 850 shipped units from the starting inventory, then calculates a 6% quality hold on the remaining stock, and finally adds the 1,150 newly restocked units that are not on hold. Based on these calculations, it concludes that 4,299 Galaxy Buds units are available for sale at the end of the day.",
+  "better_approach": "cot",
+  "stretch_done": true,
+  "stretch_react_prompt": "Solve the problem step by step. Before answering each part, identify whether it can be solved using reasoning alone or whether it requires an external tool (such as a calculator, code execution, database lookup, web search, or file analysis). If a real tool is required, explicitly state which tool is needed and why. Do not guess or fabricate tool outputs. If the tool is unavailable, explain the limitation and describe how you would proceed once the tool is available. Clearly separate your reasoning from the final answer.",
+  "tasks_completed": 6,
+  "tasks_total": 6,
+  "submitted_at": "2026-07-14T09:43:43.445Z"
+}
