@@ -1,0 +1,20 @@
+{
+  "day": 3,
+  "student_name": "Prakarsh Awasthi",
+  "github": "prakarsh68",
+  "ir_hallucination_done": true,
+  "ir_bias_done": true,
+  "ir_guardrail_builder_done": true,
+  "ir_battle_complete": true,
+  "ir_battle_blocked": 8,
+  "ir_battle_total": 8,
+  "rag_scenario": "A",
+  "rag_no_rag_summary": "The model stated that the customer is not covered by the standard warranty because it expired after 12 months and explained that accidental damage is only covered with an active Samsung Care+ plan. It sounded confident and was correct.",
+  "rag_grounded_summary": "Using only the provided document, the model concluded that a Galaxy Watch6 with a cracked screen after 14 months is covered only if an active Samsung Care+ plan exists; otherwise, the customer must pay for repair through an authorized Samsung service center. The response directly matched the policy.",
+  "rag_judgement": "confirmed_right",
+  "stretch_done": true,
+  "stretch_notes": "I tested a case where the model's prior knowledge could have differed from the provided document by instructing it to use only the supplied policy. The model followed the document rather than relying on external knowledge, demonstrating that the retrieved document takes precedence when RAG constraints are applied.",
+  "tasks_completed": 6,
+  "tasks_total": 6,
+  "submitted_at": "2026-07-15T06:17:26.482Z"
+}
