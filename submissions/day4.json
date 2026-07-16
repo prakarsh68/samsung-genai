@@ -1,0 +1,52 @@
+{
+  "day": 4,
+  "student_name": "Prakarsh Awasthi",
+  "github": "prakarsh68",
+  "incidents": [
+    {
+      "id": "A",
+      "failure_type": "Hallucination",
+      "principle": "Reliability",
+      "justification": "The chatbot confidently fabricated a discount policy that did not exist, producing false information users relied upon."
+    },
+    {
+      "id": "B",
+      "failure_type": "Privacy Violation",
+      "principle": "Privacy",
+      "justification": "Employee conversations containing sensitive client information were logged without users' knowledge or consent."
+    },
+    {
+      "id": "C",
+      "failure_type": "Deepfake/Misinformation",
+      "principle": "Transparency",
+      "justification": "An AI-generated fake video misled the public by appearing authentic and influenced the company's stock price."
+    },
+    {
+      "id": "D",
+      "failure_type": "Bias/Discrimination",
+      "principle": "Fairness",
+      "justification": "The hiring system unfairly down-ranked applicants from women's colleges through biased correlations."
+    },
+    {
+      "id": "E",
+      "failure_type": "Lack of Human Oversight",
+      "principle": "Human Oversight",
+      "justification": "No one monitored the moderation system, allowing biased removals to continue until an external party discovered them."
+    },
+    {
+      "id": "F",
+      "failure_type": "Deepfake/Misinformation",
+      "principle": "Security",
+      "justification": "Attackers used AI voice cloning to impersonate an executive and fraudulently obtain a financial transfer."
+    }
+  ],
+  "justifications_written": 6,
+  "stretch_done": true,
+  "stretch_company": "Air Canada Chatbot",
+  "stretch_failure_type": "Hallucination",
+  "stretch_principle": "Reliability",
+  "stretch_notes": "The Air Canada customer support chatbot incorrectly told a passenger they could claim a bereavement fare refund after booking a flight. The policy did not exist, and a Canadian tribunal ruled that Air Canada was responsible for the chatbot's incorrect information and ordered compensation.",
+  "tasks_completed": 6,
+  "tasks_total": 6,
+  "submitted_at": "2026-07-16T06:18:51.433Z"
+}
